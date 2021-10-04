@@ -5,7 +5,8 @@
 ## Deploy on Kubernetes (GKE)
 
 
-source article click here https://itnext.io/deploying-a-node-js-app-to-the-google-kubernetes-engine-gke-d6af1f3a954c
+source article click [here](https://medium.com/@onufrienkos/deploying-a-node-js-app-to-the-google-kubernetes-engine-gke-d6af1f3a954c)
+
 
 I wanna show you how quickly and easily you can deploy your app to the Kubernetes on Google Kubernetes Engine (GKE).
 Create a new Kubernetes cluster
@@ -31,9 +32,8 @@ For example, let’s check the nodes of a cluster.
 
 Push docker image to Google Container Registry
 I’ll use my GitHub repo which includes a simple Node.js app, Dockerfile, and deployment.yaml. All these commands I’ll enter in Cloud Shell.
-git clone https://github.com/sonufrienko/gke-simple-app
-git clone
-git@github.com:junInUK/gke-test-express-server.git
+
+git clone git@github.com:junInUK/gke-test-express-server.git
 cd gke-simple-app
 Replace [PROJECT_ID] in deployment.yaml with your GCP project ID.
 Get credentials to Google Container Registry
